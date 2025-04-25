@@ -1,11 +1,10 @@
-package com.example.springframeworkadvanced.config;
+package com.example.springframeworkadvanced;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan("com.example.springframeworkadvanced")
 public class SpringFrameworkAdvancedApplication {
 
     public static void main(String[] args) {

@@ -41,7 +41,8 @@ dependencies {
     implementation 'org.mapstruct:mapstruct-processor:1.6.3'
     // https://mvnrepository.com/artifact/org.mapstruct/mapstruct-jdk8
     implementation 'org.mapstruct:mapstruct-jdk8:1.6.3'
-
+    // https://mvnrepository.com/artifact/org.mockito/mockito-core
+    testImplementation 'org.mockito:mockito-core:5.17.0'
 }
 
 tasks.named('test') {
